@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite1" duration-ms="8936" started-at="2019-02-28T08:36:08Z" finished-at="2019-02-28T08:36:17Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest2" duration-ms="3022" started-at="2019-02-28T08:36:08Z" finished-at="2019-02-28T08:36:11Z">
+      <class name="testingNg.testng.TestDataProviders">
+        <test-method status="PASS" signature="createInstance()[pri:0, instance:testingNg.testng.TestDataProviders@3c0ecd4b]" name="createInstance" is-config="true" duration-ms="1901" started-at="2019-02-28T08:36:08Z" finished-at="2019-02-28T08:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInstance -->
+        <test-method status="PASS" signature="dataProvider()[pri:0, instance:testingNg.testng.TestDataProviders@3c0ecd4b]" name="dataProvider" is-config="true" duration-ms="2" started-at="2019-02-28T08:36:10Z" finished-at="2019-02-28T08:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProvider -->
+        <test-method status="PASS" signature="validateResult()[pri:0, instance:testingNg.testng.TestDataProviders@3c0ecd4b]" name="validateResult" duration-ms="926" started-at="2019-02-28T08:36:10Z" finished-at="2019-02-28T08:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResult -->
+        <test-method status="PASS" signature="closeConnection()[pri:0, instance:testingNg.testng.TestDataProviders@3c0ecd4b]" name="closeConnection" is-config="true" duration-ms="164" started-at="2019-02-28T08:36:11Z" finished-at="2019-02-28T08:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- testingNg.testng.TestDataProviders -->
+    </test> <!-- ChromeTest2 -->
+    <test name="ChromeTest1" duration-ms="8936" started-at="2019-02-28T08:36:08Z" finished-at="2019-02-28T08:36:17Z">
+      <class name="testingNg.testng.AppTest">
+        <test-method status="PASS" signature="createInstance(java.lang.String)[pri:0, instance:testingNg.testng.AppTest@3e6fa38a]" name="createInstance" is-config="true" duration-ms="2494" started-at="2019-02-28T08:36:08Z" finished-at="2019-02-28T08:36:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInstance -->
+        <test-method status="PASS" signature="queryInsertion()[pri:0, instance:testingNg.testng.AppTest@3e6fa38a]" name="queryInsertion" duration-ms="6264" started-at="2019-02-28T08:36:10Z" finished-at="2019-02-28T08:36:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryInsertion -->
+        <test-method status="PASS" signature="closeConnection()[pri:0, instance:testingNg.testng.AppTest@3e6fa38a]" name="closeConnection" is-config="true" duration-ms="172" started-at="2019-02-28T08:36:17Z" finished-at="2019-02-28T08:36:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- testingNg.testng.AppTest -->
+    </test> <!-- ChromeTest1 -->
+  </suite> <!-- TestSuite1 -->
+</testng-results>

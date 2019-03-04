@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [testingNg.testng.AppTest]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="testingNg.testng.AppTest">
+        <methods>
+          <include name="createInstance"/>
+          <include name="queryInsertion"/>
+          <include name="validateResult"/>
+          <include name="closeConnection"/>
+        </methods>
+      </class> <!-- testingNg.testng.AppTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [testingNg.testng.AppTest] -->

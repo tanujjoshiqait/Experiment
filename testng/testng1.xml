@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite1" parallel="tests" >
+
+
+<test name="ChromeTest1">
+
+<parameter name="browser" value="chrome" />
+
+<classes>
+
+<class name="testingNg.testng.AppTest">
+
+</class>
+
+</classes>
+
+</test>
+
+
+
+
+<test name="ChromeTest2">
+
+<classes>
+
+<class name="testingNg.testng.TestDataProviders">
+
+</class>
+
+</classes>
+
+</test>
+
+</suite>
